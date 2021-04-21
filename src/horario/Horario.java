@@ -20,16 +20,16 @@ public class Horario {
         String text = null;
          
         Scanner sc = new Scanner(System.in);
-        System.out.println("¿Que hora desea conocer?(Favor de escribarla en horario de 24 horas) ");
+        System.out.println("¿Que hora desea conocer?(Favor de escribarla en el sistema horario de 24 horas) ");
         hora = sc.nextInt();
         
         if (hora <= 24){
             switch (hora) {
             case 0:
-                text="jugar Valorant con mis amigos";
+                text="jugar Valorant con tus amigos";
                 break;
             case 1:
-                text="jugar LOL con mis amigos";
+                text="jugar LOL con tus amigos";
                 break;
             case 2:
                 text="ver Tik Toks en lo que te duermes";
@@ -104,7 +104,7 @@ public class Horario {
                
                 break;
         }
-            System.out.println("Para las " + hora + "horas tienes agendado " + text);
+            System.out.println("Para las " + hora + " horas tienes agendado " + text);
         }
     }
     
