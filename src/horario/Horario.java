@@ -105,6 +105,8 @@ public class Horario {
                 break;
         }
             System.out.println("Para las " + hora + " horas tienes agendado " + text);
+        }else {
+            System.out.println("Favor de escribir un número que este dentro de la lista");
         }
     }
     
